@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 模型文件（太大，不上传）
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*_lora_output*/
+*_bert_lora_output*/
+*_chatglm_lora_output*/
+*_bert_dap/
+sfks_bert_lora_v*/
+cail_bert_lora_output/
+
+# 向量库（太大，不上传）
+chroma_*/
+*.npy
+*_vectors/
+*.faiss
+*.index
+
+# 数据文件（可选择性上传部分样本）
+*.jsonl
+# 保留小样本用于演示
+!*_sample.jsonl
+
+# 日志和缓存
+*.log
+*.tmp
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 系统文件
+Thumbs.db
+*.Zone.Identifier
+
+# 临时文件
+temp/
+tmp/
+*.backup
+*.bak
+*.old
+
+# 评估结果（可选择性保留）
+# evaluation_results*.json
+# *_evaluation*.json
+
+# 大型文档（可选）
+# *.pdf
+
+# 依赖
+=4.37.0
+
+# 特定目录
+evaluation_reports/detail_*.json

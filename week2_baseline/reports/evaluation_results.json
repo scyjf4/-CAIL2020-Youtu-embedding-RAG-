@@ -1,0 +1,12 @@
+{
+  "data_file": "/home/scyjf4/work/intern/my_intern/week2/retrieval_data/qa_train_retrieved_sample.jsonl",
+  "model_path": "cail_bert_lora_output",
+  "total_samples": 2000,
+  "metrics": {
+    "accuracy": 0.1665,
+    "precision": 0.22374316339887823,
+    "recall": 0.1665,
+    "f1_weighted": 0.1779774416694891,
+    "f1_macro": 0.15800027985004916
+  }
+}
